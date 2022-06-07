@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+
+    <!---main header-->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div--->   
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="images/about.png" alt="kosie" class="img-fluid" title="kosie teck">
+                        </figure>
+                    </div>                    
+                    <!--right side div--->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to Kosie Tech</p>
+                        <h1>I'm a <span class="text_clr"> developer </span> creating some awesome stuff</h1>
+                        {{!-- <a href="/weather"><button><h3>About Us</h3></button></a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code -->
+    {{>footer}}
+
+</body>
+</html>
